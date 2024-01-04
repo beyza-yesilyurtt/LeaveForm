@@ -47,20 +47,3 @@
 </>
 
 
-<script>
-	function calculateDateDifference() {
-		var startDate = new Date(document.getElementById('PermissionStartDate').value);
-		var endDate = new Date(document.getElementById('PermissionEndDate').value);
-
-		if (!isNaN(startDate.getTime()) && !isNaN(endDate.getTime())) {
-			var difference = endDate - startDate;
-			var daysDifference = Math.floor(difference / (1000 * 60 * 60 * 24));
-
-			document.getElementById('dateDifferenceResult').innerText = 'İki tarih arasındaki gün farkı: ' + daysDifference + ' gün.';
-		} else {
-			document.getElementById('dateDifferenceResult').innerText = 'Geçersiz tarih formatı!';
-		}
-	}
-</script>
-
-
