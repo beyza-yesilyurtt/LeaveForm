@@ -20,7 +20,6 @@
 				<th> İzin Başlangıç Tarihi</th>
 				<th> İzin Bitiş Tarihi</th>
 				<th> İzin Nedeni</th>
-			<th> İzin Süresi</th>
 			</tr>
 		</thead>
 
@@ -35,25 +34,6 @@
 					<td>@Form.PermissionEndDate</td>
 					<td>@Form.PermissionReason</td>
 					
-				<td id="startDate_@Form.Id" style="display: none;">@Form.PermissionStartDate</td>
-				<td id="endDate_@Form.Id" style="display: none;">@Form.PermissionEndDate</td>
-				<td>@Form.PermissionReason</td>
-				<td>
-					<span id="dateDifferenceResult_@Form.Id"></span>
-					<script>
-						var startDate = new Date(document.getElementById('startDate_@Form.Id').innerText);
-						var endDate = new Date(document.getElementById('endDate_@Form.Id').innerText);
-						var resultId = 'dateDifferenceResult_' + '@Form.Id';
-
-						if (!isNaN(startDate.getTime()) && !isNaN(endDate.getTime())) {
-							var difference = endDate - startDate;
-							var daysDifference = Math.floor(difference / (1000 * 60 * 60 * 24));
-							document.getElementById(resultId).innerText = daysDifference;
-						} else {
-							document.getElementById(resultId).innerText = 'Geçersiz tarih formatı!';
-						}
-					</script>
-					</td>
 				</tr>
 			}
 		</tbody>
