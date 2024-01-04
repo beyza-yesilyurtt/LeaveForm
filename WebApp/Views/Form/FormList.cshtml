@@ -19,6 +19,7 @@
 				<th> Mail</th>
 				<th> İzin Başlangıç Tarihi</th>
 				<th> İzin Bitiş Tarihi</th>
+			<th> İzin Süresi</th>
 				<th> İzin Nedeni</th>
 			</tr>
 		</thead>
@@ -32,8 +33,18 @@
 					<td>@Form.Mail</td>
 					<td>@Form.PermissionStartDate</td>
 					<td>@Form.PermissionEndDate</td>
+				<td>
+					@{
+						DateTime startDate;
+						startDate = Form.PermissionStartDate;
+						DateTime endDate;
+						endDate = Form.PermissionEndDate;
+						TimeSpan result =endDate - startDate;
+						int daysDifference = (int)result.TotalDays;
+					}
+					@daysDifference
+				</td>
 					<td>@Form.PermissionReason</td>
-					
 				</tr>
 			}
 		</tbody>
