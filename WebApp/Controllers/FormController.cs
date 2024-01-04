@@ -24,9 +24,9 @@ namespace WebApp.Controllers
         [ActionName("CreateForm")]
         public IActionResult CreateForm(Form form)
         {
+
             var forms = new Form
-            {
-                
+            {              
                 Name = form.Name,
                 Surname = form.Surname,
                 Mail= form.Mail,
@@ -38,7 +38,12 @@ namespace WebApp.Controllers
             _db.Forms.Add(forms);
             _db.SaveChanges();
             return View("CreateForm");
-        }            
-        
+        }
+        public IActionResult FormList()
+        {
+            List<Form> formList = _db.Forms.ToList();
+
+            return View(formList);
+        }        
     }
 }

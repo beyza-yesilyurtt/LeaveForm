@@ -134,3 +134,4 @@ C:\Users\Beyza Yeşilyurt\source\repos\WebApp\WebApp\bin\Debug\net8.0\runtimes\w
 C:\Users\Beyza Yeşilyurt\source\repos\WebApp\WebApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Beyza Yeşilyurt\source\repos\WebApp\WebApp\obj\Debug\net8.0\WebApp.csproj.AssemblyReference.cache
 C:\Users\Beyza Yeşilyurt\source\repos\WebApp\WebApp\obj\Debug\net8.0\WebApp.csproj.CopyComplete
+C:\Users\Beyza Yeşilyurt\source\repos\WebApp\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json

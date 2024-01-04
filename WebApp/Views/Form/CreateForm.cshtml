@@ -1,8 +1,10 @@
 ﻿@model Form
 
 
- <div class="text-center">
-    <h1 class="display-4">Yeni Form Oluştur</h1>
+<div class="row justify-content-center">
+    <div class="col-6 text-center">
+        <h2 class="font-weight-bold" style="font-size: 3.5em;">İzin Talep Formu</h2>
+    </div>
 </div>
  
 <form method="post" enctype="multipart/form-data"> 
@@ -33,33 +35,28 @@
             <input asp-for="PermissionEndDate" class="form-control">
             <span asp-validation-for="PermissionEndDate" class="text-danger"></span>
         </div>
-            <div class="form-group mb-3">
+           <div class="form-group mb-3">
                 <label asp-for="PermissionReason" class="control-label">İzin Nedeni </label>
                 <input asp-for="PermissionReason" class="form-control">
                 <span asp-validation-for="PermissionReason" class="text-danger"></span>
-            </div>
-      @*  <div class="form-group mb-3">
-    <label asp-for="PermissionReason" class="control-label">İzin Nedeni</label>
-            <select asp-for="PermissionReason" class="form-control">
-        <option value="">Seçiniz</option>
+            </div> 
+
+        @* <div class="form-group mb-3">
+             <label asp-for="PermissionReason" class="control-label">İzin Nedeni</label>             
+             <select asp-for="PermissionReason" class="form-control">
+                <option value="">Seçiniz</option>
                 <option value="">Hastalık</option>
                 <option value="">Yıllık İzin</option>
                 <option value="">Doğum İzni</option>
                 <option value="">Evlilik İzni</option>
-    </select>
-   *@
-</div>
+             </select>
+             </div> *@
 
-     @*  <div class="form-group mb-3">
-             <a asp-controller="Form" asp-action="CreateForm" class="btn btn-outline-secondary">Gönder</a>
-             <a href="/Home/Index/" class="btn btn-outline-secondary">Ana Sayfaya Dön</a>
-        </div>  
-        *@
-         <div class="mt-2">
+        <div class="mt-2 d-flex justify-content-center">
             <button type="submit" class="btn btn-primary me-2">Gönder</button>
             <a href="/Home/Index/" class="btn btn-outline-secondary">Ana Sayfaya Dön</a>
-        </div> 
-        
+        </div>
+
     </div>
 </div> 
 </form>

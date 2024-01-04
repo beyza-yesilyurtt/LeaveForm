@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Beyza Yeşilyurt\\source\\repos\\WebApp\\WebApp\\wwwroot\\resim\\gentle-calm-serious-business-gradient-complex-gradient-of-different-colors-horizontal-image_715779-282.avif",
+      "PackagePath": "staticwebassets\\resim\\gentle-calm-serious-business-gradient-complex-gradient-of-different-colors-horizontal-image_715779-282.avif"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

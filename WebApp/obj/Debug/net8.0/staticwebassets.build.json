@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UgTSzTB62SJ60ZqNoTXF78yUiSnFfs02DTlBi2hrdU8=",
+  "Hash": "aFaKbII8sRN+Ue7L1i3RmZRFGVDPQePlWwwo+2g1zE8=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Beyza Yeşilyurt\\source\\repos\\WebApp\\WebApp\\wwwroot\\resim\\gentle-calm-serious-business-gradient-complex-gradient-of-different-colors-horizontal-image_715779-282.avif",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Beyza Yeşilyurt\\source\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "resim/gentle-calm-serious-business-gradient-complex-gradient-of-different-colors-horizontal-image_715779-282.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resim\\gentle-calm-serious-business-gradient-complex-gradient-of-different-colors-horizontal-image_715779-282.avif"
     }
   ]
 }
